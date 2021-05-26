@@ -1,0 +1,16 @@
+.StepsForward {
+    max-width: 339px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1400px;
+    height: 381px;
+    margin: 596px 56px 27px 2px;
+    background-image: linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0));
+}
+

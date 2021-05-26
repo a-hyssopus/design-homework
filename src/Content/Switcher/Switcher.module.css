@@ -1,0 +1,15 @@
+.Switch {
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 801px;
+}
+
+.bgContainer {
+    width: 79.3%;
+    height: 80.6%;
+    overflow: hidden;
+    flex-grow: 0;
+    padding: 80px 248px 80px 217px;
+    border-radius: 29px;
+    background-color: #ffffff;
+}

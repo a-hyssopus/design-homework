@@ -1,0 +1,42 @@
+.header {
+    width: 100vw;
+    height: 72px;
+    background: white;
+    position: fixed;
+    z-index: 5;
+}
+
+.headerElements {
+    width: 100vw;
+    height: 72px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.android {
+    background-image: url("../assets/android - default.svg");
+    width: 40px;
+    height: 40px;
+    margin-right: 9.7%;
+}
+
+.android:hover {
+    background-image: url("../assets/android - active _ hover.svg");
+}
+
+.ios {
+    background-image: url("../assets/ios - default.svg");
+    width: 40px;
+    height: 40px;
+    margin-right: 1.1%;
+}
+
+.ios:hover {
+    background-image: url("../assets/ios - active _ hover.svg");
+}
+
+.logo {
+    margin: 22.2% 16.7% 22.2% 9.7%;
+}

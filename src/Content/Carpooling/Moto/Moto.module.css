@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Whyte Inktrap";
+    src: url("C:/Users/dceban/design-homework/src/fonts/ABCWhyteInktrap-Regular-Trial.woff");
+}
+
+@font-face {
+    font-family: "Whyte Inktrap Medium";
+    src: url("C:/Users/dceban/design-homework/src/fonts/ABCWhyteInktrap-Medium-Trial.woff");
+}
+
+@font-face {
+    font-family: "Whyte Inktrap Medium Italic";
+    src: url("C:/Users/dceban/design-homework/src/fonts/ABCWhyteInktrap-MediumItalic-Trial.woff");
+}
+
+.Paragraph {
+    margin: 150px 16.7% 8px 16.7%;
+    text-align: center;
+}
+
+.Carpooling {
+    font-family: "Whyte Inktrap";
+    font-size: 80px;
+    line-height: 80px;
+    margin: 8px auto 0 auto;
+}
+
+.Bold {
+    font-family: "Whyte Inktrap Medium";
+}
+
+.Italic {
+    font-family: "Whyte Inktrap Medium Italic";
+}
+
+.Fun {
+    transform: rotate(-9deg);
+    display: inline-block;
+    margin-top: 25px;
+}

@@ -1,0 +1,70 @@
+@import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot");
+    src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display") format("svg"); }
+
+.Container {
+    width: 359px;
+    height: 127px;
+    object-fit: contain;
+    border-radius: 16px;
+    border: solid 1px #e9e9e9;
+    background-color: #ffffff;
+    margin: 12.4% auto;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.PassengerDriverContainer {
+    background-color: #e9e9e9;
+    width: 327px;
+    height: 64px;
+    margin: 35px 16px 28px 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Passenger {
+    width: 47.4%;
+    height: 75%;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.Driver {
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.5;
+    margin: 3.85%;
+}
+
+.Passenger, .Driver {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.Passenger, .Driver:hover {
+    cursor: pointer;
+}
+
+.Driving {
+    line-height: 24px;
+    font-size: 16px;
+    margin: 40px auto;
+}
