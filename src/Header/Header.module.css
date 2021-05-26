@@ -15,6 +15,10 @@
     justify-content: center;
 }
 
+.logo {
+    margin: 22.2% 16.7% 22.2% 9.7%;
+}
+
 .android {
     background-image: url("../assets/android - default.svg");
     width: 40px;
@@ -24,6 +28,7 @@
 
 .android:hover {
     background-image: url("../assets/android - active _ hover.svg");
+    cursor: pointer;
 }
 
 .ios {
@@ -35,8 +40,5 @@
 
 .ios:hover {
     background-image: url("../assets/ios - active _ hover.svg");
-}
-
-.logo {
-    margin: 22.2% 16.7% 22.2% 9.7%;
+    cursor: pointer;
 }

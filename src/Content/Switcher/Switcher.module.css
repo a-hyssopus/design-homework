@@ -2,14 +2,14 @@
     background-color: #f6f6f6;
     width: 100vw;
     height: 801px;
+    /*height: 11.5%;*/
 }
 
-.bgContainer {
+.Wrapper {
+    position: absolute;
     width: 79.3%;
     height: 80.6%;
-    overflow: hidden;
-    flex-grow: 0;
-    padding: 80px 248px 80px 217px;
-    border-radius: 29px;
+    margin: 0.6% 10.3% 0 10.3%;
     background-color: #ffffff;
+    border-radius: 29px;
 }

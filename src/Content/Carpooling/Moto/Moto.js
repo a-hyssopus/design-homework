@@ -1,5 +1,5 @@
-import classes from "./Moto.module.css";
 import React from "react";
+import classes from "./Moto.module.css";
 import fun from "../../../assets/fun.svg"
 
 const Moto = () => (

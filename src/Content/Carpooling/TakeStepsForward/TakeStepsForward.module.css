@@ -1,5 +1,5 @@
 .StepsForward {
-    max-width: 339px;
+    max-width: 23.5%;
     display: block;
     margin: 0 auto;
 }
@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     width: 1400px;
-    height: 381px;
+    height: 403px;
     margin: 596px 56px 27px 2px;
     background-image: linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0));
 }

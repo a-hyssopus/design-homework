@@ -1,16 +1,19 @@
 @font-face {
-    font-family: "Whyte Inktrap";
-    src: url("C:/Users/dceban/design-homework/src/fonts/ABCWhyteInktrap-Regular-Trial.woff");
+    font-family: "Whyte Inktrap Regular";
+    src: local("WhyteInktrap-Regular"),
+    url("../../../fonts/WhyteInktrapRegular.ttf");
 }
 
 @font-face {
     font-family: "Whyte Inktrap Medium";
-    src: url("C:/Users/dceban/design-homework/src/fonts/ABCWhyteInktrap-Medium-Trial.woff");
+    src: local("WhyteInktrap-Medium"),
+    url("../../../fonts/WhyteInktrapMedium.ttf");
 }
 
 @font-face {
     font-family: "Whyte Inktrap Medium Italic";
-    src: url("C:/Users/dceban/design-homework/src/fonts/ABCWhyteInktrap-MediumItalic-Trial.woff");
+    src: local("WhyteInktrap-MediumItalic"),
+    url("../../../fonts/WhyteInktrapMediumItalic.ttf");
 }
 
 .Paragraph {
@@ -19,7 +22,7 @@
 }
 
 .Carpooling {
-    font-family: "Whyte Inktrap";
+    font-family: "Whyte Inktrap Regular";
     font-size: 80px;
     line-height: 80px;
     margin: 8px auto 0 auto;

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.AugmentedReality {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.Background {
+    max-width: 96.3%;
+    margin: 0 1.9%;
+}
+
+.Paragraph {
+    position: absolute;
+    color: #ffffff;
+    top: 0.6%;
+    left: 43.4%;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
