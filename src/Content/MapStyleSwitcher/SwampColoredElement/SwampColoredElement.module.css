@@ -1,0 +1,38 @@
+.Swamp {
+    width: 39.6%;
+    height: 4%;
+    height: 276px;
+    flex-grow: 0;
+    margin: 2.6% ;
+    border-radius: 138px;
+    background-color: #d2c65e;
+    position: relative;
+    box-shadow: 25px 0px 0px 0px rgba(210,198,94,0.2), 55px 0px 0px 0px rgba(210,198,94,0.2);
+}
+
+.Circle {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    border-radius: 138px;
+    background-color: #c9bd5c;
+    right: 5.4%;
+    bottom: 5.1%;
+}
+
+.MapImage {
+    position: absolute;
+    left: 45.8%;
+    top: 32.6%;
+}
+
+.MapParagraph {
+    position: absolute;
+    font-family: "Source Sans Pro";
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+    top: 55.8%;
+    left: 33.3%;
+    margin: 16px 0 0;
+}

@@ -1,0 +1,32 @@
+.FunWayContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 640px;
+    margin: 140px auto;
+    background-color: red;
+}
+
+.FunWay {
+    max-width: 44.5%;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+}
+
+.Rectangle {
+    position: relative;
+    bottom: 80%;
+    max-width: 18.9%;
+    max-height: 7.1%;
+    margin: 950px auto 0 auto;
+    margin: 60% 39.5% 0 41.6%;
+    padding: 41.6px 105.8px 442.7px 135.3px;
+    border-radius: 28px;
+    background-color: #e9ecf0;
+}

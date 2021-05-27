@@ -1,0 +1,35 @@
+.OrangeRectangle {
+    position: relative;
+    width: 38.5%;
+    width: 555px;
+    height: 4%;
+    height: 276px;
+    left: 59.2%;
+    bottom: 42%;
+    border-radius: 4px;
+    background-color: #e85500;
+    margin: 60px 5px 60px 32px;
+}
+
+.IconTransport {
+    position: absolute;
+    top: 41.3%;
+    left: 45.8%;
+}
+
+/* между синим и оранжевым 2,2% */
+
+.TransportParagraph {
+    position: absolute;
+    left: 18.7%;
+    bottom: 12.3%;
+    width: 62.7%;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    margin: 16.7% 0 0 0;
+    white-space:normal;
+    overflow-wrap: break-word;
+    text-align: center;
+}

@@ -8,7 +8,7 @@ const ParagraphMap = () => (
         <img src={mapWithCars}
              className={classes.MapWithCars}
              alt="Map with cars"/>
-        </>
+    </>
 )
 
 export default ParagraphMap

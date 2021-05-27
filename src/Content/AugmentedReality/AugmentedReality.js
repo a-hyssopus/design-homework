@@ -1,6 +1,6 @@
 import React from "react"
 import backgroundImage from "../../../src/assets/container@3x.webp"
-import phoneImage from ""
+import phoneImage from "../../../src/assets/mock@3x.webp"
 import classes from "./AugmentedReality.module.css"
 
 const AugmentedReality = () => (
@@ -8,7 +8,10 @@ const AugmentedReality = () => (
         <img src={backgroundImage}
              alt="Background Image"
              className={classes.Background}/>
-        <p className={classes.Paragraph}>Augmented Reality</p>
+        <p className={classes.Paragraph}>Augmented reality</p>
+        <img src={phoneImage}
+             alt="Phone"
+             className={classes.Phone}/>
     </div>
 )
 

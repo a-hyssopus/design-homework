@@ -1,0 +1,27 @@
+.BlueRectangle {
+    position: relative;
+    width: 38.5%;
+    width: 555px;
+    height: 4%;
+    height: 276px;
+    margin: 60px 32px 60px 239px;
+    border-radius: 4px;
+    background-color: #677993;
+}
+
+.TrafficLight {
+    position: absolute;
+    top: 41.3%;
+    left: 45.8%;
+}
+
+.TrafficParagraph {
+    position: absolute;
+    left: 31.7%;
+    bottom: 23.9%;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    margin: 16.7% 0 0 0;
+}
