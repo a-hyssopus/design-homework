@@ -3,13 +3,39 @@
     font-family: Aktiv Grotesk Regular;
     line-height: 24px;
     font-size: 16px;
-    top: 38.2%;
+    margin: 0;
+    top: 32%;
     left: 39.8%;
 }
 
 .MapWithCars {
     position: absolute;
-    max-width: 59.3%;
-    top: 54.3%;
+    max-height: 33.3%;
+    top: 50%;
     left: 21.7%;
+}
+
+@media (max-width: 1025px) {
+    .Driving {
+        left: 33.4%;
+        top: 38.2%;
+    }
+    .MapWithCars {
+        max-width: 96.2%;
+        left: 2%;
+        top: 54.3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .Driving {
+        left: 53px;
+        top: 176px;
+    }
+
+    .MapWithCars {
+        max-width: 100%;
+        left: 2%;
+        top: 39.1%;
+    }
 }

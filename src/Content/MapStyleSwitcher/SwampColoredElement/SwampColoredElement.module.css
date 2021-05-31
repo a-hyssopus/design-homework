@@ -1,19 +1,19 @@
 .Swamp {
     width: 39.6%;
-    height: 4%;
-    height: 276px;
+    height: 34.5%;
     flex-grow: 0;
-    margin: 2.6% ;
+    margin: 0 0 0 2.6%;
     border-radius: 138px;
     background-color: #d2c65e;
-    position: relative;
+    position: absolute;
+    top: 2%;
     box-shadow: 25px 0px 0px 0px rgba(210,198,94,0.2), 55px 0px 0px 0px rgba(210,198,94,0.2);
 }
 
 .Circle {
     position: absolute;
-    width: 248px;
-    height: 248px;
+    width: 44%;
+    height: 89.5%;
     border-radius: 138px;
     background-color: #c9bd5c;
     right: 5.4%;
@@ -35,4 +35,63 @@
     top: 55.8%;
     left: 33.3%;
     margin: 16px 0 0;
+}
+
+@media (max-width: 1025px) {
+    .Swamp {
+        width: 41.9%;
+        height: 18%;
+    }
+
+    .MapImage {
+        left: 42.9%;
+    }
+
+    .MapParagraph {
+        left: 21.4%;
+    }
+}
+
+@media (max-width: 767px) {
+    .Swamp {
+        position: relative;
+        height: 160px;
+        width: 351px;
+        display: flex;
+        margin: 0;
+        top: 0;
+    }
+
+    .Swamp2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 160px;
+        width: 351px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+
+    }
+
+    .Circle {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        right: 15px;
+        top: 5px;
+    }
+
+    .MapImage {
+        position: static;
+        z-index: 2;
+    }
+
+    .MapParagraph {
+        position: static;
+        z-index: 2;
+    }
 }

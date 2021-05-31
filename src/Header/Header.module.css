@@ -4,6 +4,8 @@
     background: white;
     position: fixed;
     z-index: 5;
+    top: 0;
+    left: 0;
 }
 
 .headerElements {
@@ -13,10 +15,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 .logo {
-    margin: 22.2% 16.7% 22.2% 9.7%;
+    margin: 22.2% 16.7% 22.2% 6%;
 }
 
 .android {
@@ -35,10 +38,62 @@
     background-image: url("../assets/ios - default.svg");
     width: 40px;
     height: 40px;
-    margin-right: 1.1%;
 }
 
 .ios:hover {
     background-image: url("../assets/ios - active _ hover.svg");
     cursor: pointer;
+}
+
+.Anchor {
+    padding: 0;
+}
+
+.GetAppContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.GetIosApp {
+    margin-right: 1.1%;
+}
+
+.GetApp {
+    padding: 0 1.1% 0 11.8%;
+    color: black;
+    font-family: "Aktiv Grotesk Medium";
+    cursor: default;
+}
+
+.GetApp a {
+    padding: 0;
+}
+
+@media (max-width: 1025px) {
+    .headerElements {
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin: 4.2%;
+    }
+
+    .GetAppContainer {
+        width: 35%;
+    }
+
+    .ios, .GetApp {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+      margin: 6.4%;
+    }
+
+    .GetApp {
+        display: none;
+    }
 }

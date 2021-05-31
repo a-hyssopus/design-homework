@@ -1,14 +1,11 @@
 .OrangeRectangle {
-    position: relative;
+    position: absolute;
     width: 38.5%;
-    width: 555px;
-    height: 4%;
-    height: 276px;
-    left: 59.2%;
-    bottom: 42%;
+    height: 34.5%;
+    top: 46.3%;
+    right: 3.2%;
     border-radius: 4px;
     background-color: #e85500;
-    margin: 60px 5px 60px 32px;
 }
 
 .IconTransport {
@@ -17,14 +14,12 @@
     left: 45.8%;
 }
 
-/* между синим и оранжевым 2,2% */
-
 .TransportParagraph {
+    font-family: Source Sans Pro;
     position: absolute;
     left: 18.7%;
     bottom: 12.3%;
     width: 62.7%;
-    font-family: Source Sans Pro;
     font-size: 24px;
     line-height: 32px;
     color: white;
@@ -32,4 +27,48 @@
     white-space:normal;
     overflow-wrap: break-word;
     text-align: center;
+}
+
+@media (max-width: 1025px) {
+    .OrangeRectangle {
+        width: 41.9%;
+        height: 18%;
+        top: 25%;
+        right: 4.2%;
+    }
+
+    .IconTransport {
+        top: 16.9%;
+        left: 42.5%;
+    }
+
+    .TransportParagraph {
+        left: 19px;
+        width: 88.2%;
+        bottom: 8.1%;
+    }
+}
+
+@media (max-width: 767px) {
+    .OrangeRectangle {
+        position: static;
+        width: 322px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .IconTransport {
+        position: static;
+        width: 48px;
+    }
+
+    .TransportParagraph {
+        position: static;
+        margin: 0;
+    }
 }

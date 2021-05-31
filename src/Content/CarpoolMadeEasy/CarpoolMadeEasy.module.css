@@ -1,7 +1,318 @@
 .ContainerMadeEasy {
+    position: absolute;
     width: 100%;
-    height: 1923px;
+    top: 72.3%;
+    height: 27.7%;
     margin: 0 1px 4px 0;
-    padding: 134px 0 143px;
     background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carpoolGraph {
+    max-width: 46%;
+}
+
+.Phone {
+    width: 100%;
+    position: absolute;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Iphone {
+    max-width: 47.8%;
+}
+
+.Tilt {
+    position: absolute;
+    opacity: 1;
+    top: 16%;
+    left: 8%;
+    transform-style: preserve-3d;
+    z-index: 2;
+}
+
+.MadeEasyParagraph {
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    width: 350px;
+    color: #e82e00;
+    font-size: 60px;
+    font-family: "Aktiv Grotesk Regular";
+}
+
+.JoinTheBand {
+    position: absolute;
+    font-family: "Whyte Inktrap Regular";
+    bottom: -20%;
+    color: white;
+    font-size: 72px;
+    line-height: 80px;
+}
+
+.FreshWay {
+    position: absolute;
+    bottom: 14.7%;
+    font-family: "Source Sans Pro Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #c0c0c0;
+    font-family: "Aktiv Grotesk Regular";
+}
+
+.MadeEasyGradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 273px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+    display: flex;
+    justify-content: center;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 16px;
+    background-color: #e85500;
+}
+
+.Rectangles {
+    width: 35%;
+    position: absolute;
+    bottom: 131px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.Rectangle {
+    width: 238px;
+    height: 64px;
+    border-radius: 8px;
+    border: solid 1px #5b5b5b;
+    background-color: #000000;
+    bottom: 131px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Rectangle a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.Download {
+    color: white;
+    font-family: "Aktiv Grotesk Regular";
+    margin: 0 1px;
+}
+
+.IosImage, .AndroidImage {
+    max-width: 66.5%;
+    margin-left: 5.3%;
+}
+
+.Triangles {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    z-index: 5;
+}
+
+.Triangle {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    background-color: #000000;
+    opacity: 50%;
+    transform: rotate(110deg) skewX(308deg) scale(1, .930);
+    box-shadow: inset 0 0 24.1px 0 rgba(255, 255, 255, 0.05), inset 0 1.6px 1.2px 0 rgba(255, 255, 255, 0.15);
+}
+
+.Triangle:before,
+.Triangle:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+}
+
+.Triangle,
+.Triangle:before,
+.Triangle:after {
+    width: 12em;
+    height: 12em;
+    border-top-right-radius: 30%;
+}
+
+.Triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+    box-shadow: inset 0 0 24.1px 0 rgba(255, 255, 255, 0.05), inset 0 1.6px 1.2px 0 rgba(255, 255, 255, 0.15);
+    /*background-color: rgba(0, 0, 0, 0.03);*/
+}
+
+.Triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+    box-shadow: inset 0 0 24.1px 0 rgba(255, 255, 255, 0.05), inset 0 1.6px 1.2px 0 rgba(255, 255, 255, 0.15);
+}
+
+.OrangeTriangle {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    background-color: #ea5715;
+    text-align: left;
+    opacity: 40%;
+    transform: rotate(110deg) skewX(308deg) scale(1, .930);
+    backdrop-filter: blur(150px);
+}
+
+.OrangeTriangle:before,
+.OrangeTriangle:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+}
+
+.OrangeTriangle,
+.OrangeTriangle:before,
+.OrangeTriangle:after {
+    width: 10em;
+    height: 10em;
+    border-top-right-radius: 30%;
+    backdrop-filter: blur(0.2rem);
+}
+
+.OrangeTriangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+.OrangeTriangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+
+@media (max-width: 1025px){
+    .ContainerMadeEasy {
+        height: 26.1%;
+        top: 74%;
+    }
+
+    .Phone {
+        top: 12.6%;
+    }
+
+    .Iphone {
+        max-width: 67.7%;
+    }
+
+    .Tilt {
+        top: 16.5%;
+        left: -10%;
+    }
+
+    .JoinTheBand {
+        z-index: 2;
+    }
+
+    .FreshWay {
+        bottom: 21.7%;
+    }
+
+    .Rectangles {
+        width: 65%;
+    }
+
+    .Rectangle {
+        width: 238px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ContainerMadeEasy {
+        top: 85.1%;
+        height: 667px;
+    }
+
+    .Iphone {
+        width: 190px;
+        height: 380px;
+        top: 54px;
+    }
+
+    .Tilt {
+        height: 210px;
+        width: 251px;
+    }
+
+    .Triangles {
+        position: absolute;
+        width: 15%;
+        height: 15%;
+        left: 30%;
+        top: 17.5%;
+    }
+
+    .MadeEasyParagraph {
+        font-size: 32px;
+        left: 28%;
+    }
+
+    .Triangle,
+    .Triangle:before,
+    .Triangle:after {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .OrangeTriangle,
+    .OrangeTriangle:before,
+    .OrangeTriangle:after {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .OrangeTriangle {
+        left: 75%;
+    }
+
+    .JoinTheBand {
+        font-size: 35px;
+        line-height: 39px;
+        bottom: 40px;
+        margin: 0;
+    }
+
+    .MadeEasyGradient {
+        width: 100%;
+        height: 133px;
+    }
+
+    .FreshWay {
+        width: 375px;
+        height: 44px;
+        font-size: 16px;
+        white-space: normal;
+        word-break: normal;
+        text-align: center;
+        margin: 0;
+        bottom: 200px;
+    }
+
+    .Rectangles {
+        flex-direction: column;
+        bottom: 32px;
+        width: 240px;
+        align-content: space-evenly;
+        height: 144px;
+    }
 }

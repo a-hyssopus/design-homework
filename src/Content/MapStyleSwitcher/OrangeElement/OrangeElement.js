@@ -1,6 +1,6 @@
 import React from "react"
 import classes from "./OrangeElement.module.css"
-import transport from "../../../assets/Icon-traffic.svg"
+import transport from "../../../assets/Transport.svg"
 
 const BlueElement = () => (
     <div className={classes.OrangeRectangle}>

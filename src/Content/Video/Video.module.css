@@ -6,6 +6,7 @@
 
 .ContainerVideo {
     position: absolute;
+    top: 62%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -25,7 +26,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 740px;
+    min-height: 100%;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
     object-fit: cover;
     z-index: 2;
@@ -54,6 +55,64 @@
     color: #ffffff;
     margin: 0 2.2%;
     font-family: Source Sans Pro;
-
     position: absolute;
+}
+
+@media (max-width: 1025px) {
+    .ContainerVideo {
+        top: 62%;
+        height: 12.75%;
+    }
+
+    .Video {
+        min-height: 810px;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .GradientVideo {
+        max-height: 811px;
+        min-height: 811px;
+    }
+
+    .overlayVideoh1 {
+        top: 45.6%;
+        margin: 0 4.2%;
+    }
+
+    .overlayVideoP {
+        bottom: 89px;
+        margin: 0 4.3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .ContainerVideo {
+        top: 74.5%;
+        height: 480px;
+    }
+    .Video {
+        max-height: 480px;
+        min-height: 480px;
+    }
+    .GradientVideo {
+        max-height: 481px;
+        min-height: 481px;
+    }
+    .overlayVideoh1 {
+        width: 326px;
+        height: 160px;
+        font-size: 32px;
+        top: 204px;
+        left: 24px;
+    }
+    .overlayVideoP {
+        width: 326px;
+        height: 48px;
+        font-size: 16px;
+        left: 25px;
+        bottom: 60px;
+        white-space: normal;
+        line-break: normal;
+    }
 }

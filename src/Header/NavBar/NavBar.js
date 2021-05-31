@@ -1,26 +1,27 @@
 import React from "react"
 import classes from "./Navbar.module.css"
-import { NavLink } from "react-router-dom"
-import { paths } from "../../Constants/constants"
+import {NavHashLink, HashLink} from "react-router-hash-link"
 
-const NavBar = () => (
-    <>
-        <NavLink to={paths.now}
-                 activeStyle={{color: "#000000"}}
-                 className={classes.navlink}>Now</NavLink>
-        <NavLink exact to={paths.ride}
-                 activeStyle={{color: "#000000"}}
-                 className={classes.navlink}>How to ride</NavLink>
-        <NavLink exact to={paths.drive}
-                 activeStyle={{color: "#000000"}}
-                 className={classes.navlink}>How to drive</NavLink>
-        <NavLink exact to={paths.features}
-                 activeStyle={{color: "#000000"}}
-                 className={`${classes.features} ${classes.navlink}`}>Features</NavLink>
-        <NavLink exact to={paths.getApp}
-                 activeStyle={{color: "#000000"}}
-                 className={`${classes.getApp} ${classes.navlink}`} >Get the App</NavLink>
-    </>
-)
+const NavBar = ({passengerClicked, setPassengerClicked}) => {
+    return (
+        <>
+            <NavHashLink to={"/#now"}
+                         onClick={() => setPassengerClicked(null)}
+                         activeStyle={{color: "#000000"}}>Now</NavHashLink>
+            <HashLink exact to={"/#rideDrive"}
+                      className={passengerClicked === true ? `${classes.Active}` : null}
+                      onClick={() => setPassengerClicked(true)}>
+                How to ride</HashLink>
+            <HashLink exact to={"/#rideDrive"}
+                      className={passengerClicked === false ? `${classes.Active}` : null}
+                      onClick={() => setPassengerClicked(false)}>
+                How to drive</HashLink>
+            <NavHashLink exact to={"/#features"}
+                         onClick={() => setPassengerClicked(null)}
+                         activeStyle={{color: "#000000"}}>
+                Features</NavHashLink>
+        </>
+    )
+}
 
 export default NavBar

@@ -1,32 +1,65 @@
 .FunWayContainer {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    justify-items: center;
-    align-content: center;
-    width: 100vw;
-    height: 640px;
-    margin: 140px auto;
-    background-color: red;
+    width: 100%;
+    height: 9.35%;
+    top: 50.4%;
 }
 
 .FunWay {
+    position: absolute;
     max-width: 44.5%;
     z-index: 2;
-    position: absolute;
-    top: 20%;
+    top: 24%;
 }
 
 .Rectangle {
-    position: relative;
-    bottom: 80%;
-    max-width: 18.9%;
-    max-height: 7.1%;
-    margin: 950px auto 0 auto;
-    margin: 60% 39.5% 0 41.6%;
-    padding: 41.6px 105.8px 442.7px 135.3px;
+    position: absolute;
+    bottom: 20%;
+    width: 18.9%;
+    height: 7.1%;
+    padding: 14.4% 0;
     border-radius: 28px;
     background-color: #e9ecf0;
+}
+
+@media (max-width: 1025px) {
+    .FunWayContainer {
+        height: 11.5%;
+        top: 46%;
+    }
+
+    .FunWay {
+        top: 55%;
+        max-width: 85%;
+    }
+
+    .Rectangle {
+        bottom: 0;
+        width: 272px;
+        height: 496px;
+        padding: 0;
+        flex-grow: 0;
+        border-radius: 28px;
+        background-color: #e9ecf0;
+    }
+}
+
+@media (max-width: 767px) {
+    .FunWayContainer {
+        top: 59%;
+        width: 100%;
+    }
+    .FunWay {
+        max-width: 98%;
+        min-width: 98%;
+        top: 320px;
+    }
+    .Rectangle {
+        width: 216px;
+        height: 394px;
+        top: 170px;
+    }
 }

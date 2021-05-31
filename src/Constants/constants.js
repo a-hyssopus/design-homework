@@ -1,7 +1,4 @@
 export const paths = {
-    now: "/",
-    ride: "/ride",
-    drive: "/drive",
-    features: "/features",
-    getApp: "/getApp",
+    getAppIos: "https://www.apple.com/md/app-store/",
+    getAppAndroid: "https://play.google.com/store",
 }

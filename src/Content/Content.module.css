@@ -1,4 +1,26 @@
 .Content {
     overflow: hidden;
+    position: relative;
+    height: 6950px;
+    width: 100%;
     white-space: nowrap;
+    left: 0;
+    top: 0;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+@media (max-width: 1025px) {
+    .Content {
+        height: 6360px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Content {
+        height: 4468px;
+    }
 }

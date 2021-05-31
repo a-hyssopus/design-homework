@@ -8,7 +8,7 @@ const Video = () => (
         <video src={videoConnections}
                className={classes.Video}
                width="100%"
-               autoplay="true"
+               autoPlay
                muted
                loop/>
         <p className={classes.overlayVideoh1}>now - is a fresh way to share the road and make new connections.</p>
